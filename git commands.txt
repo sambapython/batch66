@@ -1,0 +1,15 @@
+# steps to follow folder which is not added to git
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/sambapython/batch67.git
+git push  origin master
+
+#in the secod day, intialized git in your folder and established relation between local folder to remote repository using "git remote" command.
+
+you added few extra files inb your folder and want to push now.
+
+git add .
+git commit -m "message"
+git push origin master
+
